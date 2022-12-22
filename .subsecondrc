@@ -1,0 +1,35 @@
+{
+  "displayName": "Upgrade to react-router 6",
+  "files": [
+    {
+      "displayName": "<Switch> to <Routes>",
+      "path": "./transforms/switchToRoutes.js",
+      "before": "./tests/switchToRoutes.before.js",
+      "after": "./tests/switchToRoutes.after.js"
+    },
+    {
+      "displayName": "Change to <Route element={...} />",
+      "path": "./transforms/changeToRouteElement.js",
+      "before": "./tests/changeToRouteElement.before.js",
+      "after": "./tests/changeToRouteElement.after.js"
+    },
+    {
+      "displayName": "<Route exact> fix",
+      "path": "./transforms/routeExactFix.js",
+      "before": "./tests/routeExactFix.before.js",
+      "after": "./tests/routeExactFix.after.js"
+    },
+    {
+      "displayName": "useHistory to useNavigate",
+      "path": "./transforms/useHistoryToUseNavigate.js",
+      "before": "./tests/useHistoryToUseNavigate.before.js",
+      "after": "./tests/useHistoryToUseNavigate.after.js"
+    },
+    {
+      "displayName": "<Redirect> to <Navigate>",
+      "path": "./transforms/redirectToNavigate.js",
+      "before": "./tests/redirectToNavigate.before.js",
+      "after": "./tests/redirectToNavigate.after.js"
+    }
+  ]
+}
